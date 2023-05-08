@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Gabriela");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gabriela;
+}
+
+body {
+  background: rgb(210, 226, 245);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+  margin: 2rem;
+}
+
+.container {
+  width: 1200px;
+  padding: 1em;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.187);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-box {
+  border-spacing: 0;
+  box-shadow: 0 3px 10px rgb(213, 213, 213);
+  border-radius: 12px;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.todo-box h3{
+  margin: 15px 0px 15px 15px;
+}
+
+.buttons {
+  margin: 5px;
+  display: flex;
+  justify-content: right;
+}
+
+.buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 40px;
+  margin: 10px 5px;
+  padding: 10px;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: rgb(166, 111, 255);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+
+.buttons a:hover {
+  background-color: rgb(86, 54, 137);
+}
+
+.add-new a {
+  width: 250px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(166, 111, 255);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.add-new i{
+  font-size: 30px;
+}
+
+.add-new a:hover {
+  background-color: rgb(86, 54, 137);
+}
+
+.todo-wrapper {
+  margin: 10px;
+}
+
+.todo-box .content {
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.add-new {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+form textarea {
+  width: 800px;
+  max-width: 1000px;
+  max-height: 500px;
+  outline: none;
+  border: 1px solid white;
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+textarea:focus {
+  background-color: rgb(210, 233, 251);
+}
