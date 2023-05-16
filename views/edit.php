@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        <h1>Create New Task</h1>
+        <h1>Edit Task</h1>
         <div class="todo-wrapper">
             <div class="todo-box">
                 <form id="my_form" action="<?php $GLOBALS['site_url'] ?>/update" method="POST">
